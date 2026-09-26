@@ -225,12 +225,12 @@ end
 
 function leighzermods.utils.setRecipeSubgroup(recipeName,subgroup)
     local recipe = data.raw.recipe[recipeName]
-    recip.subgroup = subgroup
+    recipe.subgroup = subgroup
 end
 
 function leighzermods.utils.setRecipeOrder(recipeName,order)
     local recipe = data.raw.recipe[recipeName]
-    recip.order = order
+    recipe.order = order
 end
 
 --function name says it all lol
