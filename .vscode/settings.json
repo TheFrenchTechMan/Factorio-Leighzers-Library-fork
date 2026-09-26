@@ -1,0 +1,8 @@
+{
+    "factorio.versions": [
+        {
+            "name": "local-2.0.77",
+            "factorioPath": "/home/tftm/Documents/github/envs/factorio-2.0.77/bin/x64/factorio"
+        }
+    ]
+}
