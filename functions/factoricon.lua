@@ -42,8 +42,15 @@ function leighzermods.utils.createRecipeFromFactoricon(factoriconName,factoricon
         enabled = enabled,
         category = category,
         ingredients = ingredients,
-        result = name,
-        result_count = resultCount,
+        results = {
+            {
+                ["type"] = "item",
+                ["name"] = name,
+                ["amount"] = resultCount
+            }
+        },
+        --result = name,
+        --result_count = resultCount,
         subgroup = subgroup .."-".. factoriconTintName,
         order = tostring(order),    
             }

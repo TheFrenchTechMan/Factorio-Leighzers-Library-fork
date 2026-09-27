@@ -108,7 +108,7 @@ function leighzermods.utils.createFluidFromGeneric(materialName,tintName,include
     fluid.name = "liquid-"..fluid.name
   end
   fluid.default_temperature = 25
-  fluid.heat_capacity = "0.1KJ"
+  fluid.heat_capacity = "0.1kJ"
   fluid.base_color = fluid.tint
   fluid.flow_color = fluid.tint
   fluid.max_temperature = 100    

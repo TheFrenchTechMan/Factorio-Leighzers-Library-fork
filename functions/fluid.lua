@@ -4,7 +4,7 @@ function leighzermods.utils.createFluid(fluidName,baseColor,flowColor,icons,auto
             type = "fluid",
             name = fluidName,
             default_temperature = 25,
-            heat_capacity = "0.1KJ",
+            heat_capacity = "0.1kJ",
             base_color = baseColor,
             flow_color = flowColor,
             max_temperature = 100,

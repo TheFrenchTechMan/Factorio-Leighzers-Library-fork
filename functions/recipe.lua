@@ -8,8 +8,15 @@ function leighzermods.utils.createRecipe(recipeName,energyRequired,enabled,categ
                         enabled = enabled,
                         category = category,
                         ingredients = ingredients,
-                        result = result,
-                        result_count = resultCount,
+                        results = {
+                            {
+                                ["name"] = result,
+                                ["amount"] = resultCount,
+                                ["type"] = "item"
+                            }
+                        },
+                        --result = result,
+                        --result_count = resultCount,
                         subgroup = subgroup,
                         order = order,
                     }
